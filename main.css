@@ -1,0 +1,238 @@
+/* latin-ext */
+/*@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}*/
+/* latin */
+/*@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}*/
+/* latin-ext */
+/*@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}*/
+/* latin */
+/*@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}*/
+/* latin-ext */
+/*@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}*/
+/* latin */
+/*@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}*/
+/* latin-ext */
+/*@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}*/
+/* latin */
+/*@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}*/
+
+a {
+  color: #0074E1; /*#14A098;*/ /*#0074E1;*/
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #ff0066;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-family: 'Poppins', sans-serif; 
+  /*font-family: 'Source Serif Pro', serif;*/
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+strong {
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Source Serif Pro', serif;*/
+  font-size: 14px;
+}
+
+heading {
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-family: 'Poppins', sans-serif; 
+  /*font-family: 'Source Serif Pro', serif;*/
+  font-size: 22px;
+}
+
+papertitle {
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-family: 'Poppins', sans-serif; 
+  /*font-family: 'Source Serif Pro', serif;*/
+  font-size: 14px;
+  font-weight: 700
+}
+
+name {
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-family: 'Poppins', sans-serif; 
+  /*font-family: 'Source Serif Pro', serif;*/
+  font-size: 32px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #0074E1;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  /*line-height: 25px;*/
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: white;
+  color: #ff0066;
+}
+
+/* Style the active/current link*/
+/*.header a.active {
+  background-color: white;
+  color: #0074E1;
+}*/
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    border: none;
+    background-color: #0074E1;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family:'Poppins',sans-serif;
+    /*border-padding:10px;*/
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:1px;
+    padding-bottom:1px;
+    border-radius: 8%/16%;
+    margin:0.3e, 0.3em 0.3em 0.3em;
+}
+
+button.button1{
+  background-color:#FFFFFF;
+  border:none;
+  color: #0074E1;
+  text-decoration:none;
+  font-family:'Poppins',sans-serif;
+  /*padding-left:2px;*/
+  /*padding-left:0.2em 0.35em;*/
+  margin:0 0.3em 0.3em 0;
+}
+button.button1:hover{
+  color:#ff0066;
+  /*background-color:#0074E1;  */
+  /*padding:0.2em 0.35em;*/
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.5em;
+  cursor: pointer; 
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
