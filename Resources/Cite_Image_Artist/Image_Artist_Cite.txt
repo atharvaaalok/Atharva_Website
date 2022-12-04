@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 Github: <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a>
 Gmail: <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
-=======
-Github: <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
->>>>>>> f60b3b95cf96b3d35a17158c077f7c90fea51d70
