@@ -83,7 +83,7 @@ a {
   /*font-family: 'Libre Baskerville', serif;*/
   font-family: 'Poppins', sans-serif; 
   /*font-family: 'Source Serif Pro', serif;*/
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -91,7 +91,7 @@ strong {
   /*font-family: 'Libre Baskerville', serif;*/
   font-family: 'Poppins', sans-serif;
   /*font-family: 'Source Serif Pro', serif;*/
-  font-size: 14px;
+  font-size: 16px;
 }
 
 heading {
@@ -106,6 +106,14 @@ papertitle {
   font-family: 'Poppins', sans-serif; 
   /*font-family: 'Source Serif Pro', serif;*/
   font-size: 14px;
+  font-weight: 700
+}
+
+projecttitle {
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-family: 'Poppins', sans-serif; 
+  /*font-family: 'Source Serif Pro', serif;*/
+  font-size: 22px;
   font-weight: 700
 }
 
@@ -154,7 +162,7 @@ span.highlight {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px;
   /*line-height: 25px;*/
   border-radius: 4px;
 }
