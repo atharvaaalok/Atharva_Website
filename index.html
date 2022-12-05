@@ -22,6 +22,27 @@
   <link rel="icon" href="images/favicon.ico">
 
 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 11%;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+
 </head>
 
 
@@ -100,33 +121,28 @@
             <tr>
             <td style="padding-left:2.5%;padding-bottom:20px;width:100%;vertical-align:middle">
               <heading><b>Useful Links</b></heading>
-              <p>
-                <br>
-                &emsp;
-                <!--&nbsp; &ensp; &emsp;-->
-                <a href="Contact_Form.html"><img src="Resources/Gmail_Icon.png" style="height:60px;"></a>
-                &emsp;&emsp;&emsp;&emsp;
-                <a href="Resources/AtharvaAalok_CV.pdf" target="_blank"><img src="Resources/CV_Icon.png" style="height:60px;"></a>
-                &emsp;&emsp;&emsp;&emsp;
-                <a href="https://github.com/atharvaaalok" target="_blank"><img src="Resources/Github_Icon.png" style="height:60px;"></a>
-                &emsp;&emsp;&emsp;&emsp;
-                <a href="https://in.mathworks.com/matlabcentral/fileexchange/authors/my_fileexchange?s_tid=gn_mlc_fx_myfx" target="_blank"><img src="Resources/Matlab_Icon.png" style="height:60px;"></a>
-              </p>
-
-              <p style="text-align:left">
-                &emsp;&ensp;
-                <a href="Contact_Form.html"><b><u>Email</u></b></a>
-                &emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;&nbsp;
-                <a href="Resources/AtharvaAalok_CV.pdf" target="_blank"><b><u>CV</u></b></a>
-                &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&ensp;&nbsp;
-                <a href="https://github.com/atharvaaalok" target="_blank"><b><u>Github</u></b></a>
-                &emsp;&emsp;&emsp;&nbsp;&ensp;
-                <a href="https://in.mathworks.com/matlabcentral/fileexchange/authors/my_fileexchange?s_tid=gn_mlc_fx_myfxhttps://in.mathworks.com/matlabcentral/profile/authors/17638486?s_tid=gn_comm" target="_blank"><b><u>MathWorks</u></b></a>
-              </p>
+              <div class="row">
+                <div class="column">
+                    <a href="Contact_Form.html"><img src="Resources/Gmail_Icon.png" alt="Snow" style="height:60px;"> <p style="text-align:center"><u><b>Email</b></u></p></a>
+                  </div>
+                  <div class="column">
+                    <a href="Resources/AtharvaAalok_CV.pdf" target="_blank"><img src="Resources/CV_Icon.png" alt="Snow" style="height:60px;"> <p style="text-align:center"><u><b>CV</b></u></p></a>
+                  </div>
+                  <div class="column">
+                    <a href="https://github.com/atharvaaalok" target="_blank"><img src="Resources/Github_Icon.png" alt="Snow" style="height:60px;"> <p style="text-align:center"><u><b>Github</b></u></p></a>
+                  </div>
+                  <div class="column">
+                    <a href="https://in.mathworks.com/matlabcentral/fileexchange/authors/my_fileexchange?s_tid=gn_mlc_fx_myfx" target="_blank"><img src="Resources/Matlab_Icon.png" alt="Snow" style="height:60px;"> <p style="text-align:center"><u><b>MathWorks</b></u></p></a>
+                  </div>
+                </div>
             </td>
           </tr>
           </tbody>
         </table>
+
+
+
+
 <!------------------------------------- Updates --------------------------------------->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tbody>
