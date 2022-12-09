@@ -1,2 +1,11 @@
 Github: <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a>
 Gmail: <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+
+Report
+<a href="https://www.flaticon.com/free-icons/document" title="document icons">Document icons created by Freepik - Flaticon</a>
+
+Presentation
+<a href="https://www.flaticon.com/free-icons/big-data" title="big data icons">Big data icons created by xnimrodx - Flaticon</a>
+
+Presentation: Teaching
+<a href="https://www.flaticon.com/free-icons/class" title="class icons">Class icons created by Pause08 - Flaticon</a>

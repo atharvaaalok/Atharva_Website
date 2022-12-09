@@ -39,6 +39,35 @@
     padding: 1px; 
     background-color: #78281F; 
     }
+
+
+    table{
+    }
+    table td {
+
+    }
+    table.no-spacing {
+      border-spacing:0; /* Removes the cell spacing via CSS */
+      border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+    }
+
+    .box {
+      display: flex;
+      align-items:center;
+    }
+
+    .column {
+      float: left;
+      width: 12%;
+      text-align: left;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
   </style>
 
 
@@ -50,7 +79,7 @@
     <a href="research.html"><b>Research</b></a>
     <a href="projects.html"><b>Projects</b></a>
     <a href="Contact_Form.html"><b>Contact Me</b></a>
-    <a href="funny.html"><b>Funny</b></a>
+    <a href="hobbies.html"><b>Hobbies</b></a>
     <!-- <a href="bio.html"><b>Bio</b></a> -->
   </div>
 </div>
@@ -68,7 +97,7 @@
   <tbody>
     <tr>
     <td style="padding-left:20px;padding-bottom:0px;width:100%;vertical-align:middle">
-      <heading><b>Projects</b></heading>
+      <heading><b>Research</b></heading>
       <p></p>
     </td>
   </tr>
@@ -81,28 +110,119 @@
 
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-    <!--Professional Plots-->
-    <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/ProfessionalPlots_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/ProfessionalPlots_Image.png" class="hoverZoomLink"></a></td>
+  <!--IISc Research Work-->
+  <tbody>
+  <tr>
+    <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/IISc_Research_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/IISc_Research_Image.png" class="hoverZoomLink"></a></td>
     <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
-        <a href="https://in.mathworks.com/matlabcentral/fileexchange/100766-professional-plots" target="_blank">
-          <projecttitle>Professional Plots</projecttitle>
+        <a href="https://github.com/atharvaaalok/Team_SARAS" target="_blank">
+          <projecttitle>Jet-based STOL UAV Design</projecttitle>
         </a>
         <br>
-        <em>Open-source at <a href="https://in.mathworks.com/matlabcentral/fileexchange/?s_tid=gn_mlc_fx_files" target="_blank">MATLAB File Exchange</a> </em>
+        <em>Advisor: <a href="http://aero.iisc.ac.in/people/suresh-sundaram/" target="_blank">Prof. Suresh Sundaram</a></em>
+        <br>
+        <em>Place: Artificial Intelligence and Robotics Lab (AIRL), IISc Bangalore</em>
         <p align="justify">
-            This toolbox grew out of a personal project of mine. I was working on a script that would automate the process of setting a few "good" properties for my plots. I was also struggling with hex codes and would be jumping on and off of google to get the right colors (<b>#relatable right?</b>). So I made a color palette and a scheme with it that would make it easy to pick colors.
+            Our aim is to build a <b>UAV</b> with <b>Short Takeoff and Landing (STOL)</b> capabilities that can deliver a <b>50 kg payload</b> and work efficiently at very <b>high altitudes (5000m+)</b>.
+        </p>
+        <p>
+            Rotors are highly inefficient at high altitudes, therefore, we decided for a <b>jet-based UAV</b> design. The plan is to have a <b>thrust vectoring</b> mechanism which will provide the STOL capabilities.
         </p>
         <p align="justify">
-            <b>For eg:</b> If I want red, then I can use <b>PS.Red1</b> <span class="red1"></span> if I want a darker shade, I can just increase the number <b>PS.Red5</b> <span class="red5"></span> ~Phewww~
+            <b>Thrust Stand:</b> asdfasdf
         </p>
         <p align="justify">
-            The toolbox now has over <b>1600 downloads!!! (BOOOM!)</b>
+            <b>Thrust Vectoring:</b> asdfasdf
+        </p>
+        <p align="justify">
+            <b>Vehicle Prototype:</b> asdfasdf
         </p>
         
       </td>
-    </tr>
-
+    </tr>    
   </tbody>
+
+
+
+
+  <!--EWS Breaking Points-->
+  <tbody>
+  <tr>
+    <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/RTipping_gif.gif"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/RTipping_gif.gif" class="hoverZoomLink"></a></td>
+    <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
+        <a href="https://github.com/atharvaaalok/Team_SARAS" target="_blank">
+          <projecttitle>Breaking Points of Early Warning Signals</projecttitle>
+        </a>
+        <br>
+        <em>Advisor: <a href="http://www.ae.iitm.ac.in/~sujith/" target="_blank">Prof. R.I. Sujith</a></em>
+        <br>
+        <em>Place: Sujith's Lab, IIT Madras</em>
+        <p align="justify">
+          Rate-induced tipping is the latest addition to the theory of tipping. The theoretical explanations of the mechanisms leading to r-tipping are at the moment unclear. I believe that there are 2 different mechanisms that can lead to r-tipping.
+        </p>
+        <p>
+          One of them involves relative rate of motion between the system state and a moving fixed point. Basically, the fundamental idea is that if the fixed point is moving fast enough then the distance, in phase space, between the system and the fixed point will keep increasing. Eventually, a time will come when the distance becomes so large that the system gets thrown out of the region of stability.
+        </p>
+        <p>
+          <b>I have derived a general nth-order set of dynamical equations that describes the relative motion between the system and its fixed point.</b>
+        </p>
+
+        <p align="justify">
+          <div class="row">
+            <div class="column">
+                <a href="https://docs.google.com/presentation/d/1NcbMm-wtPhm4w6FDH98jIfHGdG3I0Hs5Ku-Nd__8FkQ/edit" target="_blank"><img src="Resources/Presentation_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Presentation</b></u></p></a>
+            </div>
+          </div>
+        </p>
+
+
+      </td>
+    </tr>    
+  </tbody>
+
+
+
+  <!--BTech Thesis-->
+  <tbody>
+  <tr>
+    <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/RTipping_gif.gif"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/RTipping_gif.gif" class="hoverZoomLink"></a></td>
+    <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
+        <a href="https://github.com/atharvaaalok/Team_SARAS" target="_blank">
+          <projecttitle>Investigations in the theory of Rate-induced tipping</projecttitle>
+        </a>
+        <br>
+        <em>Advisor: <a href="http://www.ae.iitm.ac.in/~sujith/" target="_blank">Prof. R.I. Sujith</a></em>
+        <br>
+        <em>Place: Sujith's Lab, IIT Madras</em>
+        <p align="justify">
+          Rate-induced tipping is the latest addition to the theory of tipping. The theoretical explanations of the mechanisms leading to r-tipping are at the moment unclear. I believe that there are 2 different mechanisms that can lead to r-tipping.
+        </p>
+        <p>
+          One of them involves relative rate of motion between the system state and a moving fixed point. Basically, the fundamental idea is that if the fixed point is moving fast enough then the distance, in phase space, between the system and the fixed point will keep increasing. Eventually, a time will come when the distance becomes so large that the system gets thrown out of the region of stability.
+        </p>
+        <p>
+          <b>I have derived a general nth-order set of dynamical equations that describes the relative motion between the system and its fixed point.</b>
+        </p>
+
+        <p align="justify">
+          <div class="row">
+            <div class="column">
+                <a href="https://docs.google.com/presentation/d/1NcbMm-wtPhm4w6FDH98jIfHGdG3I0Hs5Ku-Nd__8FkQ/edit" target="_blank"><img src="Resources/Presentation_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Presentation</b></u></p></a>
+            </div>
+          </div>
+        </p>
+
+
+      </td>
+    </tr>    
+  </tbody>
+
+
+
+
+
+
+
 
 
 

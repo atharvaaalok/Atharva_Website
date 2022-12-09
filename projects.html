@@ -39,7 +39,37 @@
     padding: 1px; 
     background-color: #78281F; 
     }
+
+
+    table{
+    }
+    table td {
+
+    }
+    table.no-spacing {
+      border-spacing:0; /* Removes the cell spacing via CSS */
+      border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+    }
+
+    .box {
+      display: flex;
+      align-items:center;
+    }
+
+    .column {
+      float: left;
+      width: 12%;
+      text-align: left;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
   </style>
+
 
 
 </head>
@@ -50,7 +80,7 @@
     <a href="research.html"><b>Research</b></a>
     <a href="projects.html"><b>Projects</b></a>
     <a href="Contact_Form.html"><b>Contact Me</b></a>
-    <a href="funny.html"><b>Funny</b></a>
+    <a href="hobbies.html"><b>Hobbies</b></a>
     <!-- <a href="bio.html"><b>Bio</b></a> -->
   </div>
 </div>
@@ -82,6 +112,8 @@
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
     <!--Professional Plots-->
+  <tbody>
+  <tr>
     <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/ProfessionalPlots_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/ProfessionalPlots_Image.png" class="hoverZoomLink"></a></td>
     <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
         <a href="https://in.mathworks.com/matlabcentral/fileexchange/100766-professional-plots" target="_blank">
@@ -107,6 +139,8 @@
 
 
   <!--UAV Conceptual Design-->
+  <tbody>
+  <tr>
     <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/UAV_Conceptual_Design_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/UAV_Conceptual_Design_Image.png" class="hoverZoomLink"></a></td>
     <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
         <a href="https://github.com/atharvaaalok/Team_SARAS" target="_blank">
@@ -115,13 +149,45 @@
         <br>
         <em>Advisors: <a href="http://www.ae.iitm.ac.in/~krishna/ramakrishnam.html" target="_blank">Prof. M. Ramakrishna</a> and <a href="https://www.mgbharath.com/" target="_blank">B. Govindarajan</a> </em>
         <p align="justify">
-            Every year a vast number of people get lost in forests. Search and Rescue teams on foot are vastly insufficient for larger forests. We designed a UAV that can search the largest forest in India (Sundarbans 1800 km^2)
+            Every year a large number of people get lost in forests and many of them lose their lives. Search and Rescue teams on foot are vastly insufficient for larger forests or in difficult to navigate terrains. Therefore, we designed a UAV that can perform this task.
+        </p>
+        <p>
+            First, it performs the search task and locates the rescuee using a state-of-the-art Computer Vision algorithm. It also carries water, energy dense foods and drinks, and a medical kit.
         </p>
         <p align="justify">
-            <b>For eg:</b> If I want red, then I can use <b>PS.Red1</b> <span class="red1"></span> if I want a darker shade, I can just increase the number <b>PS.Red5</b> <span class="red5"></span> ~Phewww~
+            The design is an <b>electric fixed wing configuration with 4 rotors providing VTOL capabilities</b>.
+            <table class="no-spacing" cellspacing="0">
+              <tr>
+                <td><b>Max. Takeoff Weight</b></td>
+                <td> - 10.47 kg</td>
+              </tr>
+              <tr>
+                <td><b>Payload Capacity</b></td>
+                <td> - 1.3 kg</td>
+              </tr>
+              <tr>
+                <td><b>Range</b></td>
+                <td> - 115 km</td>
+              </tr>
+              <tr>
+                <td><b>Cruise speed</b></td>
+                <td> - 20 m/s</td>
+              </tr>
+            </table>
+
         </p>
         <p align="justify">
-            The toolbox now has over <b>1600 downloads!!! (BOOOM!)</b>
+          <div class="row">
+            <div class="column">
+                <a href="https://github.com/atharvaaalok/Team_SARAS" target="_blank"><img src="Resources/Github_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Github</b></u></p></a>
+            </div>
+            <div class="column">
+                <a href="https://drive.google.com/file/d/1HocN6BsbAa9H1-C-mmuJQs2mCIaiqp2t/view" target="_blank"><img src="Resources/Report_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Report</b></u></p></a>
+            </div>
+            <div class="column">
+                <a href="https://docs.google.com/presentation/d/1NcbMm-wtPhm4w6FDH98jIfHGdG3I0Hs5Ku-Nd__8FkQ/edit" target="_blank"><img src="Resources/Presentation_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Presentation</b></u></p></a>
+            </div>
+          </div>
         </p>
         
       </td>
@@ -132,6 +198,8 @@
 
   
   <!--UAV Structural Design-->
+  <tbody>
+  <tr>
     <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/UAV_Structural_Design_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/UAV_Structural_Design_Image.png" class="hoverZoomLink"></a></td>
     <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
         <a href="https://github.com/atharvaaalok/UAV_StructuralDesign" target="_blank">
@@ -140,13 +208,27 @@
         <br>
         <em>Advisors: <a href="https://scholar.google.se/citations?user=2a0ROsoAAAAJ&hl=en" target="_blank">Prof. H.S.N. Murthy</a> and <a href="https://sites.google.com/view/aimsiitm/" target="_blank">S. Murugan</a> </em>
         <p align="justify">
-            Every year a vast number of people get lost in forests. Search and Rescue teams on foot are vastly insufficient for larger forests. We designed a UAV that can search the largest forest in India (Sundarbans 1800 km^2)
+            Fabricating the UAV using the design from the conceptual design phase. Choosing the right materials, designing the structure against failure and then fabricating the final product.
         </p>
         <p align="justify">
-            <b>For eg:</b> If I want red, then I can use <b>PS.Red1</b> <span class="red1"></span> if I want a darker shade, I can just increase the number <b>PS.Red5</b> <span class="red5"></span> ~Phewww~
+            <b>Material Testing:</b> Tested Al-6082 using a UTM. The properties were found out to be: Yield Stress: 71 MPa, Tensile Stress: 320 MPa, Young's Modulus: 84.66 GPa.
         </p>
         <p align="justify">
-            The toolbox now has over <b>1600 downloads!!! (BOOOM!)</b>
+            <b>Structural Design:</b> Calculating wing (skin, spar, stringers, ribs) and fuselage (bulkhead) component dimensions for design against failure. I have written a computer code that produces a fine discretization of the wing skin and spar and calculates stresses (normal and shear). In particular for shear stresses, I use a 3-boom approximation for the skin and spar. The code works for 1 spar at the moment.
+        </p>
+        <p align="justify">
+            <b>Structural Fabrication:</b> Wing manufacturing ongoing...
+        </p>
+
+        <p align="justify">
+          <div class="row">
+            <div class="column">
+                <a href="https://github.com/atharvaaalok/UAV_StructuralDesign" target="_blank"><img src="Resources/Github_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Github</b></u></p></a>
+            </div>
+            <div class="column">
+                <a href="https://drive.google.com/file/d/1KM1PuV3NCq69UOj-H5TxXO1y04KG7quu/view?usp=share_link" target="_blank"><img src="Resources/Report_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Report</b></u></p></a>
+            </div>
+          </div>
         </p>
         
       </td>
@@ -157,6 +239,8 @@
 
 
   <!--Vector Field Path Following-->
+  <tbody>
+  <tr>
     <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/VectorFieldPathFollowing_MAV_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/VectorFieldPathFollowing_MAV_Image.png" class="hoverZoomLink"></a></td>
     <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
         <a href="https://github.com/atharvaaalok/Vector_Field_Path_Following_for_MAVs" target="_blank">
@@ -165,13 +249,27 @@
         <br>
         <em>Advisors: <a href="http://www.ae.iitm.ac.in/~satadal/index.html" target="_blank">Prof. S. Ghosh</a> </em>
         <p align="justify">
-            Every year a vast number of people get lost in forests. Search and Rescue teams on foot are vastly insufficient for larger forests. We designed a UAV that can search the largest forest in India (Sundarbans 1800 km^2)
+            For Miniature Air Vehicles (MAVs) windspeeds are a major concern with respect to path following, as they can be upto 20-60% of the desired airspeed. Thus, wind can lead to significant deviations from a desired path.
         </p>
         <p align="justify">
-            <b>For eg:</b> If I want red, then I can use <b>PS.Red1</b> <span class="red1"></span> if I want a darker shade, I can just increase the number <b>PS.Red5</b> <span class="red5"></span> ~Phewww~
+            In this paper we focus on path tracking (not trajectory tracking) and use a <b>vector field guidance law</b> with a <b>sliding mode control</b> approach to bring an MAV to the desire path and orient it along it.
         </p>
         <p align="justify">
-            The toolbox now has over <b>1600 downloads!!! (BOOOM!)</b>
+            In particular, we construct 2 types of vector fields; one for <b>straight line</b> path following and another for <b>orbit (or circular arc)</b> following. As an example, the figure on the left shows a vector field that guides an MAV to track a straight line path.
+        </p>
+        <p align="justify">
+            The algorithm is based on <a href="https://ieeexplore.ieee.org/document/4252175" target="_blank"><b>this paper</b></a>.
+        </p>
+
+        <p align="justify">
+          <div class="row">
+            <div class="column">
+                <a href="https://github.com/atharvaaalok/Vector_Field_Path_Following_for_MAVs" target="_blank"><img src="Resources/Github_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Github</b></u></p></a>
+            </div>
+            <div class="column">
+                <a href="https://docs.google.com/presentation/d/1O_diuoXAzuqIJYsFHQUrf4PdcYyyF2Flz2D4jMYAFyk/edit?usp=sharing" target="_blank"><img src="Resources/Presentation_Icon.png" alt="Snow" style="height:55px;"><p style="text-align:left"><u><b>Presentation</b></u></p></a>
+            </div>
+          </div>
         </p>
         
       </td>
@@ -181,6 +279,8 @@
 
 
   <!--Hurst Exponent-->
+  <tbody>
+  <tr>
     <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/Hurst_Exponent_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/Hurst_Exponent_Image.png" class="hoverZoomLink"></a></td>
     <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
         <a href="https://in.mathworks.com/matlabcentral/fileexchange/100988-hurst-exponent" target="_blank">
@@ -189,13 +289,16 @@
         <br>
         <em>Colleague: <a href="https://scholar.google.com/citations?user=cP7Ej2IAAAAJ&hl=en" target="_blank">Dr. I. Pavithran</a> </em>
         <p align="justify">
-            Every year a vast number of people get lost in forests. Search and Rescue teams on foot are vastly insufficient for larger forests. We designed a UAV that can search the largest forest in India (Sundarbans 1800 km^2)
+            <b>Hurst exponent</b> is a measure of long-term memory of time series. I was using the Hurst Exponent as an Early Warning Signal (EWS) for my research work. It took me a really long time to get everything working, so I decided to release my code on MATLAB file exchange :)
         </p>
         <p align="justify">
-            <b>For eg:</b> If I want red, then I can use <b>PS.Red1</b> <span class="red1"></span> if I want a darker shade, I can just increase the number <b>PS.Red5</b> <span class="red5"></span> ~Phewww~
+            The code uses the <b>Multifractal Detrended Fluctuation Analysis (MFDFA)</b> algorithm which is based on <a href="https://www.frontiersin.org/articles/10.3389/fphys.2012.00141/full" target="_blank"><b>this paper</b></a>.
         </p>
         <p align="justify">
-            The toolbox now has over <b>1600 downloads!!! (BOOOM!)</b>
+            <b>Algorithm:</b> What we do is break the time series into parts of equal length (the length of each part is a scale), then fit a trend (linear or other) to each part and calculate the rms of the error of each part. Adding all the erros gives us the total error at that chosen scale. If we plot the total error as a function of the scale we get a plot, the slope of which is the Hurst exponent.
+        </p>
+        <p align="justify">
+            The toolbox now has over <b>80 downloads</b>.
         </p>
         
       </td>
@@ -205,21 +308,26 @@
 
 
   <!--Face Recognition Neural Network-->
-    <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/AnimeNeuralNetwork_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/AnimeNeuralNetwork_Image.png" class="hoverZoomLink"></a></td>
+  <tbody>
+  <tr>
+    <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/AnimeNeuralNetwork_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/AnimeNeuralNetwork_Image.png" class="hoverZoomLink"></a>
     <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
         <a href="https://github.com/atharvaaalok/Anime_NeuralNetwork" target="_blank">
           <projecttitle>Anime Face Recognition Neural Network</projecttitle>
         </a>
         <br>
-        <em>MOOC: <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0" target="_blank">Harvard CS50</a> </em>
+        <em>MOOC: <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Stanford Machine Learning</a> </em>
         <p align="justify">
-            Every year a vast number of people get lost in forests. Search and Rescue teams on foot are vastly insufficient for larger forests. We designed a UAV that can search the largest forest in India (Sundarbans 1800 km^2)
+            I was studying machine learning and a course project was to build a neural network which would train on a dataset of handwritten numbers.
         </p>
         <p align="justify">
-            <b>For eg:</b> If I want red, then I can use <b>PS.Red1</b> <span class="red1"></span> if I want a darker shade, I can just increase the number <b>PS.Red5</b> <span class="red5"></span> ~Phewww~
+            I wanted to make this more complex, and since I had a lot of free time due to college being off due to COVID, I decided to make a face identifier. But, I didn't have enough images of me or any of my friends to train the model. So, instead I used anime faces.
         </p>
         <p align="justify">
-            The toolbox now has over <b>1600 downloads!!! (BOOOM!)</b>
+            But even that was an issue since it is difficult to find face images of the same character, of a given size. So I ended up making a shabby <b>50x50 image size</b> dataset of my own ;). I took 2 popular characters and edited their images (bitmap) to produce the dataset.
+        </p>
+        <p align="justify">
+            The final model had <b>1 hidden layer</b> and when trained identified new images correctly with a <b>97% accuracy</b>.
         </p>
         
       </td>
@@ -230,7 +338,12 @@
 
 
   <!--Image Filters C-->
-    <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><a href="Resources/ImageFilters_C_ColorInerted_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/ImageFilters_C_ColorInerted_Image.png" class="hoverZoomLink"></a></td>
+  <tbody>
+    <tr>
+    <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle">
+      <a href="Resources/Image_Filters_C_Original_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/Image_Filters_C_Original_Image.png" class="hoverZoomLink"></a>
+      <a href="Resources/ImageFilters_C_ColorInerted_Image.png"><img style="border-radius:5%/10%;width:400px" alt="profile photo" src="Resources/ImageFilters_C_ColorInerted_Image.png" class="hoverZoomLink"></a>
+    </td>
     <td style="padding-left:35px;padding-top:10px;padding-bottom:20px;width:100%;vertical-align:top">
         <a href="https://github.com/atharvaaalok/Filters_in_C" target="_blank">
           <projecttitle>Image Filters</projecttitle>
@@ -238,13 +351,46 @@
         <br>
         <em>MOOC: <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0" target="_blank">Harvard CS50</a> </em>
         <p align="justify">
-            Every year a vast number of people get lost in forests. Search and Rescue teams on foot are vastly insufficient for larger forests. We designed a UAV that can search the largest forest in India (Sundarbans 1800 km^2)
+            I was learning C and I was learning about header files and how to make projects. Basically, I wanted to go beyond single file projects. I had also learnt about <b>function pointers</b> which was a pretty cool concept (until then I thought this was a thing only in Python).
         </p>
         <p align="justify">
-            <b>For eg:</b> If I want red, then I can use <b>PS.Red1</b> <span class="red1"></span> if I want a darker shade, I can just increase the number <b>PS.Red5</b> <span class="red5"></span> ~Phewww~
+            Sitting at home due to COVID, I had written codes for different image filters inspired by a project I did in the online CS50 course. So I combined my filter codes with my desire to make a full blown project in C and ~Ta-Dah
         </p>
         <p align="justify">
-            The toolbox now has over <b>1600 downloads!!! (BOOOM!)</b>
+            This code works on <b>bitmap</b> images, which store each individual pixel color values. Each filter reads individual pixel which is a set of <b>R G B</b> values. Then these values are manipulated to produce the desired result.
+        </p>
+        <p align="justify">
+            <b>For eg:</b> The images on the left are converted using an invert filter. This is the invert filter, in which the R G B values of each pixel are taken and subtracted from 255 to give the new R G B values which then produce the new image.
+        </p>
+        <p align="justify">
+            Some of the image filters which I coded are:
+            <table class="no-spacing" cellspacing="0">
+              <tr>
+                <td><b>Boundary</b></td>
+                <td> - Detects boundaries in the images by finding pixel color derivatives</td>
+              </tr>
+              <tr>
+                <td><b>Reflect</b></td>
+                <td> - Does a mirror reflection on the image</td>
+              </tr>
+              <tr>
+                <td><b>Grayscale</b></td>
+                <td> - Produces a black and white image</td>
+              </tr>
+              <tr>
+                <td><b>Blur</b></td>
+                <td> - Produces a blurred version of the original image</td>
+              </tr>
+              <tr>
+                <td><b>Invert</b></td>
+                <td> - Takes the R G B value of each pixel and subtracts from 255 -> My Fav</td>
+              </tr>
+              <tr>
+                <td><b>Whiten</b></td>
+                <td> - Increases the image brightness</td>
+              </tr>
+            </table>
+
         </p>
         
       </td>
@@ -254,6 +400,8 @@
 
 
   <!--LED Matrix Game Console-->
+  <tbody>
+  <tr>
     <td style="padding-left:25px;padding-bottom:20px;width:15%;vertical-align:middle"><video style="border-radius:5%/10%;width:400px" controls>
   <source src="Resources/LED_Matrix_GameConsole.mp4" type="video/mp4" class="hoverZoomLink">
 </video></td>
@@ -262,17 +410,20 @@
           <projecttitle>LED Matrix Game Console</projecttitle>
         </a>
         <br>
-        <em>MOOC: <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0" target="_blank">Harvard CS50</a> </em>
+        <em>Personal Project </em>
         <p align="justify">
-            Every year a vast number of people get lost in forests. Search and Rescue teams on foot are vastly insufficient for larger forests. We designed a UAV that can search the largest forest in India (Sundarbans 1800 km^2)
+            A fun project that I made to learn more about the RaspberryPi and embedded programming using Python.
         </p>
         <p align="justify">
-            <b>For eg:</b> If I want red, then I can use <b>PS.Red1</b> <span class="red1"></span> if I want a darker shade, I can just increase the number <b>PS.Red5</b> <span class="red5"></span> ~Phewww~
+            Initially, I had coded the snake game in <b>Python</b>. Later, when I was learning about the <b>RaspberryPi 4</b> I thought of playing the snake game on it.
         </p>
         <p align="justify">
-            The toolbox now has over <b>1600 downloads!!! (BOOOM!)</b>
+            I also had a spare <b>8x8 LED matrix</b> with me. Combine all three and.... <br>
+            ~Pooofff.
         </p>
-        
+        <p align="justify">
+            So what is happening in the video is that there is an apple (which occupies a single LED bulb) and there is a snake that we can control using an external keyboard attached to the RaspberryPi 4.
+        </p>
       </td>
     </tr>
 
@@ -282,7 +433,8 @@
 
 
 
-
+</td>
+    </tr>
 
 </table>
 
