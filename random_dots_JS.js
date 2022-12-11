@@ -5,7 +5,7 @@ $(document).ready(function(){
     this.obj.classList.add("box");
     this.obj.style.top = (window.innerHeight * Math.random()) + 'px';
     this.obj.style.left = (window.innerWidth * Math.random()) + 'px';
-    this.size = Math.floor(5 * Math.random()) + 2;
+    this.size = Math.floor(3 * Math.random()) + 1;
     this.obj.style.height =  this.size + 'px';
     this.obj.style.width = this.size + 'px';
     
